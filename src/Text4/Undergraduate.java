@@ -13,11 +13,6 @@ public class Undergraduate extends Student {
     public boolean isPass() {
         return pass;
     }
-
-    public void setPass(boolean pass) {
-        this.pass = pass;
-    }
-
     public String toString() {
         return super.toString() + "\n是否合格：" + isPass();
     }

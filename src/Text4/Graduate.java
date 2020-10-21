@@ -14,9 +14,6 @@ public class Graduate extends Student {
         return pass;
     }
 
-    public void setPass(boolean pass) {
-        this.pass = pass;
-    }
 
     public String toString() {
         return super.toString() + "\n是否合格：" + isPass();

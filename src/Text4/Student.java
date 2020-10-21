@@ -19,40 +19,20 @@ public class Student {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public String getId() {
         return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
     }
 
     public double getSub0() {
         return sub0;
     }
 
-    public void setSub0(double sub0) {
-        this.sub0 = sub0;
-    }
-
     public double getSub1() {
         return sub1;
     }
 
-    public void setSub1(double sub1) {
-        this.sub1 = sub1;
-    }
-
     public double getSub2() {
         return sub2;
-    }
-
-    public void setSub2(double sub2) {
-        this.sub2 = sub2;
     }
 
     public String toString(){
