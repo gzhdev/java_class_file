@@ -14,8 +14,8 @@ public class intPrinter {
             if (str.length < 5){
                 throw new ArrayIndexOutOfBoundsException();
             }
-            for(int i=0;i<a.length;i++){
-                System.out.println(a[i]);
+            for (int j : a) {
+                System.out.println(j);
             }
 
         }
