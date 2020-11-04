@@ -1,0 +1,5 @@
+this is a test file copied to "00.txt"
+this is a file copied to "00.txt"
+a file copied to "00.txt"
+file copied to "00.txt"
+file
