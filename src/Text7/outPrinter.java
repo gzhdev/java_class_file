@@ -11,6 +11,7 @@ public class outPrinter {
             while((s=br.readLine()) != null){
                 System.out.println(s);
             }
+            br.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
